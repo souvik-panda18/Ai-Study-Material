@@ -1,7 +1,7 @@
 
 import requests
 
-Base_url = "https://jsonplaceholder.typicode.com/posts"
+Base_url = ""
 def get_models():
     response = requests.get(Base_url)
     if response.status_code == 200:
